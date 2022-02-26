@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e4f0d0;
+}
+
+#header {
+    padding: 10px;
+    background-color: #c2d8b9;
+}
+
+#name-input {
+    margin: 20px auto;
+    width: 40%;
+    height: 60px;
+}
+
+.players
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.player
+{
+    height: 25vh;
+    width: 15vw;
+    border: 1px solid black;
+}
+
+#player1,#player2,#result{
+    border: 1px solid grey;
+    font-size:20px;
+    width: 20vw;
+    height: 25vh;
+}
+
+/* #chat
+{
+    padding: 10px 15px;
+    border: 1px solid black;
+    height: 20vh;
+    overflow: auto;
+} */
+
+#chat{
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 20vh;
+    overflow: auto;
+}
+
+/* .player2-buttons, .player1-buttons{
+    display: none;
+} */
+
+.buttons{
+    display: none;
+}
+
+#button {
+    cursor: pointer;
+}
+
+#first-choices {
+    display: none;
+}
+
+#send{
+    color:grey;
+    font-weight: bold;
+}
